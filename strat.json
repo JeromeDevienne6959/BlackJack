@@ -1,0 +1,521 @@
+{
+    "nom" : "Strat_1_avec_assuranceV1",
+    "provenance" : "https://www.blackjack-fr.net/strategie-blackjack.html",
+    "assurance" : "1",
+    "double": [
+        {
+            "1": [
+                {
+                    "1": "split",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "split",
+                    "8": "split",
+                    "9": "split",
+                    "10": "head"
+                }
+            ],
+            "2": [
+                {
+                    "1": "split",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "3": [
+                {
+                    "1": "split",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "4": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "split",
+                    "5": "split",
+                    "6": "tirer",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "5": [
+                {
+                    "1": "tirer",
+                    "2": "double",
+                    "3": "double",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "double",
+                    "8": "double",
+                    "9": "double",
+                    "10": "tirer"
+                }
+            ],
+            "6": [
+                {
+                    "1": "tirer",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "7": [
+                {
+                    "1": "tirer",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "split",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "8": [
+                {
+                    "1": "tirer",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "split",
+                    "8": "split",
+                    "9": "split",
+                    "10": "tirer"
+                }
+            ],
+            "9": [
+                {
+                    "1": "rester",
+                    "2": "split",
+                    "3": "split",
+                    "4": "split",
+                    "5": "split",
+                    "6": "split",
+                    "7": "rester",
+                    "8": "split",
+                    "9": "split",
+                    "10": "rester"
+                }
+            ],
+            "10": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ]
+        }
+    ],
+    "asPlusElse": [
+        {
+            "2":[
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "tirer",
+                    "5": "double",
+                    "6": "double",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "3":[
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "tirer",
+                    "5": "double",
+                    "6": "double",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "4": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "5": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "6": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "double",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "7": [
+                {
+                    "1": "tirer",
+                    "2": "rester",
+                    "3": "double",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "8": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ],
+            "9": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ],
+            "10": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ]
+        }
+    ],
+    "sum": [
+        {
+            "5": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "tirer",
+                    "5": "tirer",
+                    "6": "tirer",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "6": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "tirer",
+                    "5": "tirer",
+                    "6": "tirer",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "7": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "tirer",
+                    "5": "tirer",
+                    "6": "tirer",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "8": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "tirer",
+                    "5": "tirer",
+                    "6": "tirer",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "9": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "double",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "10": [
+                {
+                    "1": "tirer",
+                    "2": "double",
+                    "3": "double",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "double",
+                    "8": "double",
+                    "9": "double",
+                    "10": "tirer"
+                }
+            ],
+            "11": [
+                {
+                    "1": "tirer",
+                    "2": "double",
+                    "3": "double",
+                    "4": "double",
+                    "5": "double",
+                    "6": "double",
+                    "7": "double",
+                    "8": "double",
+                    "9": "double",
+                    "10": "tirer"
+                }
+            ],
+            "12": [
+                {
+                    "1": "tirer",
+                    "2": "tirer",
+                    "3": "tirer",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "13": [
+                {
+                    "1": "tirer",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "14": [
+                {
+                    "1": "tirer",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "15": [
+                {
+                    "1": "tirer",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "16": [
+                {
+                    "1": "tirer",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "tirer",
+                    "8": "tirer",
+                    "9": "tirer",
+                    "10": "tirer"
+                }
+            ],
+            "17": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ],
+            "18": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ],
+            "19": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ],
+            "20": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ],
+            "21": [
+                {
+                    "1": "rester",
+                    "2": "rester",
+                    "3": "rester",
+                    "4": "rester",
+                    "5": "rester",
+                    "6": "rester",
+                    "7": "rester",
+                    "8": "rester",
+                    "9": "rester",
+                    "10": "rester"
+                }
+            ]
+        }
+    ]
+}
